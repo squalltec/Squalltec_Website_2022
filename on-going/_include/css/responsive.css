@@ -1,0 +1,480 @@
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 2, ../sass/responsive.scss */
+  #menu {
+    display: none;
+  }
+
+  /* line 6, ../sass/responsive.scss */
+  #mobile-nav {
+    display: block;
+    float: right;
+  }
+
+  /* line 11, ../sass/responsive.scss */
+  #menu-nav-mobile {
+    margin: 0;
+  }
+
+  /* line 16, ../sass/responsive.scss */
+  header .sticky-nav #mobile-nav,
+  header .sticky-nav.stuck #mobile-nav {
+    margin-right: 20px;
+  }
+
+  /* line 20, ../sass/responsive.scss */
+  #social-area #social ul li {
+    margin-left: 15px;
+  }
+
+  /* line 24, ../sass/responsive.scss */
+  #social-area #social ul li a {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* line 29, ../sass/responsive.scss */
+  #social-area #social ul li a span {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  /* line 34, ../sass/responsive.scss */
+  #twitter-feed {
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+
+  /* line 39, ../sass/responsive.scss */
+  .info-block a.button {
+    margin-top: 20px;
+    position: inherit;
+  }
+
+  /* line 44, ../sass/responsive.scss */
+  .info-text {
+    padding-right: 0;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 50, ../sass/responsive.scss */
+  #back-to-top {
+    display: none !important;
+  }
+
+  /* line 54, ../sass/responsive.scss */
+  #home-slider {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  /* line 59, ../sass/responsive.scss */
+  header .sticky-nav {
+    position: relative;
+  }
+
+  /* line 68, ../sass/responsive.scss */
+  header .sticky-nav,
+  #navigation-mobile,
+  .page,
+  .page-alternate, .page-alternate2,
+  #twitter-feed,
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 75, ../sass/responsive.scss */
+  header .sticky-nav #logo {
+    margin-left: 0;
+  }
+
+  /* line 79, ../sass/responsive.scss */
+  header .sticky-nav.stuck #logo {
+    margin-left: 20px;
+  }
+
+  /* line 83, ../sass/responsive.scss */
+  header .sticky-nav #menu {
+    margin-right: 0;
+  }
+
+  /* line 87, ../sass/responsive.scss */
+  header .sticky-nav.stuck #menu {
+    margin-right: 20px;
+  }
+
+  /* line 91, ../sass/responsive.scss */
+  #menu {
+    display: none;
+  }
+
+  /* line 95, ../sass/responsive.scss */
+  #mobile-nav {
+    display: block;
+    float: right;
+  }
+
+  /* line 100, ../sass/responsive.scss */
+  #menu-nav-mobile {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 0;
+  }
+
+  /* line 106, ../sass/responsive.scss */
+  header .sticky-nav.stuck #mobile-nav {
+    margin-right: 20px;
+  }
+
+  /* line 110, ../sass/responsive.scss */
+  .work-nav {
+    margin-bottom: 30px;
+  }
+
+  /* line 114, ../sass/responsive.scss */
+  .type-work {
+    background: url(../img/filter-icon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-bottom: 0;
+    position: relative;
+    line-height: 10px;
+  }
+
+  /* line 126, ../sass/responsive.scss */
+  .work-nav #filters,
+  .work-nav #filters li {
+    display: inline-block;
+  }
+
+  /* line 130, ../sass/responsive.scss */
+  .work-nav #filters li {
+    margin: 0 10px 0 0;
+  }
+
+  /* line 134, ../sass/responsive.scss */
+  .work-nav #filters li a {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  /* line 139, ../sass/responsive.scss */
+  #about .profile {
+    margin-bottom: 30px;
+  }
+
+  /* line 143, ../sass/responsive.scss */
+  #about .profile:last-child {
+    margin-bottom: 0;
+  }
+
+  /* line 147, ../sass/responsive.scss */
+  #response {
+    margin-bottom: 30px;
+  }
+
+  /* line 151, ../sass/responsive.scss */
+  .contact-details {
+    border-top: 1px dashed #3C3F45;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  /* line 157, ../sass/responsive.scss */
+  #contact-form .submit {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 165, ../sass/responsive.scss */
+  #social-area #social ul li:first-child,
+  #social-area #social ul li {
+    margin: 15px;
+  }
+
+  /* line 169, ../sass/responsive.scss */
+  #social-area #social ul li a {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* line 174, ../sass/responsive.scss */
+  #social-area #social ul li a span {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  /* line 179, ../sass/responsive.scss */
+  #twitter-feed {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+
+  /* line 184, ../sass/responsive.scss */
+  #ticker .tweet_list li {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  /* line 189, ../sass/responsive.scss */
+  #ticker .tweet_list .tweet_time a {
+    font-size: 13px;
+    margin-left: 5px;
+  }
+
+  /* line 194, ../sass/responsive.scss */
+  .info-block a.button {
+    margin-top: 20px;
+    position: inherit;
+    display: block;
+  }
+
+  /* line 200, ../sass/responsive.scss */
+  .info-text {
+    padding-right: 0;
+  }
+}
+@media (max-width: 480px) {
+  /* line 206, ../sass/responsive.scss */
+  #back-to-top {
+    display: none !important;
+  }
+
+  /* line 210, ../sass/responsive.scss */
+  #home-slider {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+
+  /* line 215, ../sass/responsive.scss */
+  #home-slider ul#slide-list {
+    display: none;
+  }
+
+  /* line 219, ../sass/responsive.scss */
+  header .sticky-nav {
+    position: relative;
+  }
+
+  /* line 228, ../sass/responsive.scss */
+  header .sticky-nav,
+  #navigation-mobile,
+  .page,
+  .page-alternate, .page-alternate2,
+  #twitter-feed,
+  footer {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* line 235, ../sass/responsive.scss */
+  header .sticky-nav #logo {
+    margin-left: 0;
+  }
+
+  /* line 239, ../sass/responsive.scss */
+  header .sticky-nav.stuck #logo {
+    margin-left: 20px;
+  }
+
+  /* line 243, ../sass/responsive.scss */
+  header .sticky-nav #menu {
+    margin-right: 0;
+  }
+
+  /* line 247, ../sass/responsive.scss */
+  header .sticky-nav.stuck #menu {
+    margin-right: 20px;
+  }
+
+  /* line 251, ../sass/responsive.scss */
+  #menu {
+    display: none;
+  }
+
+  /* line 255, ../sass/responsive.scss */
+  #mobile-nav {
+    display: block;
+    float: right;
+  }
+
+  /* line 260, ../sass/responsive.scss */
+  #menu-nav-mobile {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 0;
+  }
+
+  /* line 266, ../sass/responsive.scss */
+  #navigation-mobile li a {
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  /* line 271, ../sass/responsive.scss */
+  header .sticky-nav.stuck #mobile-nav {
+    margin-right: 20px;
+  }
+
+  /* line 275, ../sass/responsive.scss */
+  .work-nav {
+    margin-bottom: 30px;
+  }
+
+  /* line 279, ../sass/responsive.scss */
+  .type-work {
+    background: url(../img/filter-icon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    text-indent: -9999px;
+    margin-bottom: 0;
+    position: relative;
+    line-height: 10px;
+  }
+
+  /* line 290, ../sass/responsive.scss */
+  .work-nav #filters li:first-child {
+    margin-left: 0;
+  }
+
+  /* line 295, ../sass/responsive.scss */
+  .work-nav #filters,
+  .work-nav #filters li {
+    display: inline-block;
+  }
+
+  /* line 299, ../sass/responsive.scss */
+  .work-nav #filters li {
+    margin: 0 10px 0 0;
+  }
+
+  /* line 303, ../sass/responsive.scss */
+  .work-nav #filters li a {
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  /* line 308, ../sass/responsive.scss */
+  #about .profile {
+    margin-bottom: 30px;
+  }
+
+  /* line 312, ../sass/responsive.scss */
+  #about .profile:last-child {
+    margin-bottom: 0;
+  }
+
+  /* line 316, ../sass/responsive.scss */
+  #response {
+    margin-bottom: 30px;
+  }
+
+  /* line 320, ../sass/responsive.scss */
+  .contact-details {
+    border-top: 1px dashed #3C3F45;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  /* line 326, ../sass/responsive.scss */
+  #contact-form .submit {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* line 334, ../sass/responsive.scss */
+  #social-area #social ul li:first-child,
+  #social-area #social ul li {
+    margin: 15px;
+  }
+
+  /* line 338, ../sass/responsive.scss */
+  #social-area #social ul li a {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* line 343, ../sass/responsive.scss */
+  #social-area #social ul li a span {
+    font-size: 24px;
+    line-height: 50px;
+  }
+
+  /* line 348, ../sass/responsive.scss */
+  #twitter-feed {
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+
+  /* line 353, ../sass/responsive.scss */
+  #ticker .tweet_list li {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  /* line 358, ../sass/responsive.scss */
+  #ticker .tweet_list .tweet_time a {
+    font-size: 12px;
+    margin-left: 3px;
+  }
+
+  /* line 363, ../sass/responsive.scss */
+  .info-block a.button {
+    margin-top: 20px;
+    position: inherit;
+    display: block;
+  }
+
+  /* line 369, ../sass/responsive.scss */
+  .info-text {
+    padding-right: 0;
+  }
+}
+@media (max-width: 320px) {
+  /* line 375, ../sass/responsive.scss */
+  #navigation-mobile li a {
+    padding: 20px 0;
+  }
+
+  /* line 379, ../sass/responsive.scss */
+  .work-nav #filters li a {
+    font-size: 12px;
+  }
+
+  /* line 383, ../sass/responsive.scss */
+  #twitter-feed {
+    padding-top: 90px;
+    padding-bottom: 120px;
+  }
+}
+/* Retina Display */
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 2dppx) {
+  /* line 398, ../sass/responsive.scss */
+  header #logo a {
+    background-image: url(../img/logo_@2x.png);
+    background-size: 96px 30px;
+  }
+
+  /* line 403, ../sass/responsive.scss */
+  .menu-nav {
+    background-image: url(../img/menu-mobile_@2x.png);
+    background-size: 16px 32px;
+  }
+
+  /* line 408, ../sass/responsive.scss */
+  .type-work {
+    background-image: url(../img/filter-icon_@2x.png);
+    background-size: 16px 16px;
+  }
+}
